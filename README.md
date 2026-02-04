@@ -2,10 +2,12 @@
 
 Custom `matplotlib` charts for trading & financial related data
 
-### Installation
+## Installation
 
 Run the command:
 
-`pip install git+https://github.com/TVidori/p4score.git`
+```sh
+pip install git+https://github.com/TVidori/p4score.git`
+```
 
-### Usage
+## Usage
