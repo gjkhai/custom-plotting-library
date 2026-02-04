@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "customplottinglibrary"
+version = "1.0.0"
+dependencies = ["setuptools", "pandas", "numpy", "matplotlib"]
+requires-python = ">=3.11"
+authors = [
+  {name = "gjkhai"}
+]
