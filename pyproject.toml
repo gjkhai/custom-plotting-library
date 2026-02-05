@@ -3,12 +3,13 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "custom-plotting-library"
+name = "cpl"
 version = "1.0.0"
 dependencies = ["pandas", "numpy", "matplotlib"]
 requires-python = ">=3.11"
 authors = [
   {name = "gjkhai"}
 ]
+
 
 
