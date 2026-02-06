@@ -97,34 +97,38 @@ CustomCandlePlot.plot(self, data, ax=0, chart_type="ohlc", signal=False, custom_
 - uses `custom_colors`
 
 `chart_type="hline"`
-- *Draws a horizontal line at `data`*
+- *Draws a horizontal line at* `data`
 - `data` should be a number like int / float
 - uses `custom_colors[0]`
 
 `chart_type="vline"`
-- *Draws a verticle line at `data`*
+- *Draws a verticle line at* `data`
 - `data` should be a number like int / float
 - uses `custom_colors[0]`
 
-### Chart Options
+#### Chart Options
 
-- legend=True
--> Draws legend on chart with labels
--- supports chart_type=["line", "bar"]
+`legend=True`
+- *Draws legend on chart with labels*
+    - supports `chart_type="line"` or `chart_type="bar"`
 
-- grid=True
--> Draws a grid for major ticks
+`grid=True`
+- *Draws a grid for major ticks*
 
-- grid_setting=None or dict
--> Customize grid when grid=True
+`grid_setting=None` or dict
+- *Customize grid when* `grid=True`
 - default / supported settings:
+```json
 {"which": "major",
  "linestyle": "--",
  "linewidth": 0.5}
+```
 
-- title_labels=None or dict
--> Draws Labels 
+`title_labels=None` or dict
+- *Draws labels* 
 - default / supported settings:
+```json
 {"xlabel": string,
  "ylabel": string,
  "title": string}
+```
