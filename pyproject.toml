@@ -6,10 +6,11 @@ build-backend = "hatchling.build"
 name = "custom-plotting-library"
 version = "1.0.0"
 dependencies = ["pandas", "numpy", "matplotlib"]
-requires-python = ">=3.11"
+requires-python = ">=3.7"
 authors = [
   {name = "gjkhai"}
 ]
+
 
 
 
