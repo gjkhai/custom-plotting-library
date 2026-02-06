@@ -7,7 +7,7 @@ Custom `matplotlib` charts for trading & financial related data
 Run the command:
 
 ```sh
-pip install --upgrade --no-cache-dir git+https://github.com/ganjk/custom-plotting-library.git
+pip install --upgrade --no-cache-dir git+https://github.com/gjkhai/custom-plotting-library.git
 ```
 
 ## Usage
