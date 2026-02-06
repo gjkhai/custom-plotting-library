@@ -22,8 +22,8 @@ CustomCandlePlot(rows, columns, figsize=(12, 6), contrained_layout=True)
 | :--- | :--- | :---: | :---: |
 | `rows` | int: number of rows for entire plot | Yes | |
 | `columns` | int: number of columns for entire plot | Yes | |
-| `figsize` | tuple: (width, height) for entire plot | No | (12, 6) |
-| `contrained_layout` | bool: True for tight layout | No | True |
+| `figsize` | tuple: (width, height) for entire plot | No | `(12, 6)` |
+| `contrained_layout` | bool: True for tight layout | No | `True` |
 
 **Example:**
 
@@ -48,22 +48,22 @@ CustomCandlePlot.plot(self, data, ax=0, chart_type="ohlc", signal=False, custom_
 | Parameter | Type: Description | Required | Default |
 | :--- | :--- | :---: | :---: |
 | `data` | pandas.DataFrame: data frame with columns | Yes | |
-| | float: number for single "vline" and "hline" plots | | |
-| `ax` | int: index of axes to plot on | No | 0 |
-| `chart_type ` | string: chart type, see example below | No | "ohlc" |
-| `signal` | bool: True to plot entry/exit levels | No | False |
-| `custom_column` | list: column names to plot values | No | None |
-| `custom_colors` | list: color names for plots | No | ["black"] |
-| `legend` | bool: True to plot legend | No | False |
-| `grid` | bool: True to plot grid lines | No | False |
-| `grid_settings` | dict: settings to modify grid lines | No | None |
-| `title_labels` | dict: settings to modify axis labels and title | No | None |
+| | float: number for single "vline" and "hline" plots | Yes | |
+| `ax` | int: index of axes to plot on | No | `0` |
+| `chart_type ` | string: chart type, see example below | No | `"ohlc"` |
+| `signal` | bool: True to plot entry/exit levels | No | `False` |
+| `custom_column` | list: column names to plot values | No | `None` |
+| `custom_colors` | list: color names for plots | No | `["black"]` |
+| `legend` | bool: True to plot legend | No | `False` |
+| `grid` | bool: True to plot grid lines | No | `False` |
+| `grid_settings` | dict: settings to modify grid lines | No | `None` |
+| `title_labels` | dict: settings to modify axis labels and title | No | `None` |
 
 **Example:**
 
 `chart_type="ohlc"`
-- required columns in data
--- Open, High, Low, Close
+ - required columns in data
+ -- Open, High, Low, Close
 
 - default color
 -- up candle green
