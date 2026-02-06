@@ -45,23 +45,22 @@ row=2 columns=2
 CustomCandlePlot.plot(self, data, ax=0, chart_type="ohlc", signal=False, custom_column=None, custom_colors=["black"], legend=False, grid=False, grid_settings=None, title_labels=None)
 ```
 
-+---------------+----------------------------------------------------+----------+-----------+
-| Parameter     | Type: Description                                  | Required | Default   |
-+---------------+----------------------------------------------------+----------+-----------+
-| data          | pandas.DataFrame: data frame with columns          | Yes      |           |
-|               | float: number for single "vline" and "hline" plots |          |           |
-| ax            | int: index of axes to plot on                      | No       | 0         |
-| chart_type    | string: chart type, see example below              | No       | "ohlc"    |
-| signal        | bool: True to plot entry/exit levels               | No       | False     |
-| custom_column | list: column names to plot values                  | No       | None      |
-| custom_colors | list: color names for plots                        | No       | ["black"] |
-| legend        | bool: True to plot legend                          | No       | False     |
-| grid          | bool: True to plot grid lines                      | No       | False     |
-| grid_settings | dict: settings to modify grid lines                | No       | None      |
-| title_labels  | dict: settings to modify axis labels and title     | No       | None      |
-+---------------+----------------------------------------------------+----------+-----------+
+| Parameter | Type: Description | Required | Default |
+| :--- | :--- | :---: | :---: |
+| `data` | pandas.DataFrame: data frame with columns | Yes | |
+| | float: number for single "vline" and "hline" plots | | |
+| `ax` | int: index of axes to plot on | No | 0 |
+| `chart_type ` | string: chart type, see example below | No | "ohlc" |
+| `signal` | bool: True to plot entry/exit levels | No | False |
+| `custom_column` | list: column names to plot values | No | None |
+| `custom_colors` | list: color names for plots | No | ["black"] |
+| `legend` | bool: True to plot legend | No | False |
+| `grid` | bool: True to plot grid lines | No | False |
+| `grid_settings` | dict: settings to modify grid lines | No | None |
+| `title_labels` | dict: settings to modify axis labels and title | No | None |
 
-Example:
+**Example:**
+
 `chart_type="ohlc"`
 - required columns in data
 -- Open, High, Low, Close
