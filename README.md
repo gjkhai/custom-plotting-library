@@ -62,51 +62,49 @@ CustomCandlePlot.plot(self, data, ax=0, chart_type="ohlc", signal=False, custom_
 **Example:**
 
 `chart_type="ohlc"`
+- Draws a OHLC candlestick chart
 - required columns in data
-    - Open, High, Low, Close
+    - *Open, High, Low, Close*
 - default color
     - up candle green
     - down candle red
-
-- optional columns in data
-`signal=True`
--- Signal -> Draws a up marker for values > 0 / Draws a down marker for values < 0
--- Price -> Draws up / down market at specific prices
-
-- signal default color
--- up marker dodgerblue
--- down market salmon
+- optional columns in data when `signal=True`
+    - *Signal* -> Draws a up marker for values > 0 / Draws a down marker for values < 0
+    - signal default color
+        - up marker dodgerblue
+        - down market salmon
+    - *Price* -> Draws up / down market at specific prices
 
 `chart_type="volume"`
--- Volume -> Draws a bar chart with volume for values > 0 or < 0
-
-- default color
--- up volume blue
--- down volume red
+- *Draws a bar chart for volume*
+- *Volume* -> Draws a bar chart with volume for values > 0 or < 0
+- volume default color
+    - up volume blue
+    - down volume red
 
 `chart_type="line"`
--> Draws a line chart with veritcle axis values specified
-- use custom_column with custom_colors
-- default column
--- Close -> if custom_column not specified
-- uses custom_colors
+- *Draws a line chart with veritcle axis values specified*
+- use `custom_column` with `custom_colors`
+- default column for data
+    - *Close* -> if `custom_column` not specified
+- uses `custom_colors`
 
 `chart_type="bar"`
--> Draws a bar chart with heights specified
-- use custom_column with custom_colors
+- *Draws a bar chart with heights specified*
+- use `custom_column` with `custom_colors`
 - default column
--- Close -> if custom_column not specified
-- uses custom_colors
+    - *Close* -> if `custom_column` not specified
+- uses `custom_colors`
 
 `chart_type="hline"`
--> Draws a horizontal line at data
-- data should be a number like int / float
-- uses custom_colors[0]
+- *Draws a horizontal line at `data`*
+- `data` should be a number like int / float
+- uses `custom_colors[0]`
 
 `chart_type="vline"`
--> Draws a verticle line at data
-- data should be a number like int / float
-- uses custom_colors[0]
+- *Draws a verticle line at `data`*
+- `data` should be a number like int / float
+- uses `custom_colors[0]`
 
 ### Chart Options
 
