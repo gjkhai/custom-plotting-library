@@ -15,7 +15,9 @@ pip install --upgrade --no-cache-dir git+https://github.com/ganjk/custom-plottin
 `CustomCandlePlot(rows, columns, figsize=(12, 6), contrained_layout=True)`
 
 ### Initilization Parameters:
+
 | Parameter | Type: Description | Required | Default |
+| :--- | :--- | :---: | :---: |
 | rows | int: number of rows for entire plot | Yes | |
 | columns | int: number of columns for entire plot | Yes | |
 | figsize | tuple: (width, height) for entire plot | No | (12, 6) |
