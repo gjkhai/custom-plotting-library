@@ -1,2 +1,3 @@
-import .main import *
+from .main import *
+
 
