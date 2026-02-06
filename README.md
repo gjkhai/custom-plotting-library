@@ -13,7 +13,7 @@ pip install --upgrade --no-cache-dir git+https://github.com/gjkhai/custom-plotti
 ## Usage
 
 ```python
-CustomCandlePlot(rows, columns, figsize=(12, 6), contrained_layout=True)
+CustomCandlePlot(rows, columns, figsize=(12, 6), constrained_layout=True)
 ```
 
 ### Initilization Parameters:
