@@ -18,21 +18,24 @@ pip install --upgrade --no-cache-dir git+https://github.com/ganjk/custom-plottin
 
 | Parameter | Type: Description | Required | Default |
 | :--- | :--- | :---: | :---: |
-| rows | int: number of rows for entire plot | Yes | |
-| columns | int: number of columns for entire plot | Yes | |
-| figsize | tuple: (width, height) for entire plot | No | (12, 6) |
-| contrained_layout | bool: True for tight layout | No | True |
+| `rows` | int: number of rows for entire plot | Yes | |
+| `columns` | int: number of columns for entire plot | Yes | |
+| `figsize` | tuple: (width, height) for entire plot | No | (12, 6) |
+| `contrained_layout` | bool: True for tight layout | No | True |
 
 **Example:**
+
+```
 [ ]
-`rows=1 columns=1`
+rows=1 columns=1
 
 [ ] [ ]
-`row=1 columns=2`
+row=1 columns=2
 
 [ ] [ ]
 [ ] [ ]
-`row=2 columns=2`
+row=2 columns=2
+```
 
 ### Custom Methods
 
