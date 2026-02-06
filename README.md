@@ -12,7 +12,9 @@ pip install --upgrade --no-cache-dir git+https://github.com/ganjk/custom-plottin
 
 ## Usage
 
-`CustomCandlePlot(rows, columns, figsize=(12, 6), contrained_layout=True)`
+```python
+CustomCandlePlot(rows, columns, figsize=(12, 6), contrained_layout=True)
+```
 
 ### Initilization Parameters:
 
@@ -39,7 +41,9 @@ row=2 columns=2
 
 ### Custom Methods
 
-`CustomCandlePlot.plot(self, data, ax=0, chart_type="ohlc", signal=False, custom_column=None, custom_colors=["black"], legend=False, grid=False, grid_settings=None, title_labels=None)`
+```python
+CustomCandlePlot.plot(self, data, ax=0, chart_type="ohlc", signal=False, custom_column=None, custom_colors=["black"], legend=False, grid=False, grid_settings=None, title_labels=None)
+```
 
 +---------------+----------------------------------------------------+----------+-----------+
 | Parameter     | Type: Description                                  | Required | Default   |
