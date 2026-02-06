@@ -148,8 +148,8 @@ class CustomCandlePlot:
                      "Low": ["LOW", "L"],
                      "Close": ["CLOSE", "C"],
                      "Signal": ["SIGNAL", "S"],
-                     "Price": ["Price", "Trade Price", "P"],
-                     "Volume": ["Volume", "V"]}
+                     "Price": ["PRICE", "TRADE PRICE", "P"],
+                     "Volume": ["VOLUME", "V"]}
         for col in col_names.keys():
             for name in data.columns:
                 if name.upper() in col_names[col]:
@@ -264,3 +264,4 @@ class CustomCandlePlot:
                     self.ax[ax].set_title(title_labels.get("title"))
 
  
+
