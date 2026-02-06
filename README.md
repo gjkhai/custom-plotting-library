@@ -62,12 +62,11 @@ CustomCandlePlot.plot(self, data, ax=0, chart_type="ohlc", signal=False, custom_
 **Example:**
 
 `chart_type="ohlc"`
- - required columns in data
- -- Open, High, Low, Close
-
+- required columns in data
+ - Open, High, Low, Close
 - default color
--- up candle green
--- down candle red
+ - up candle green
+ - down candle red
 
 - optional columns in data
 `signal=True`
