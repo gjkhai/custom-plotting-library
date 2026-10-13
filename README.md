@@ -12,4 +12,4 @@ pip install --upgrade --no-cache-dir git+https://github.com/gjkhai/custom-plotti
 
 ## Docs & Usage
 
-[Link to Documentation - Notion]([https://github.com](https://app.notion.com/p/CustomPlottingLibrary-3ea113986fce80ef88fdcc7ff5b65066?source=copy_link)
+[Link to Documentation - Notion](https://app.notion.com/p/CustomPlottingLibrary-3ea113986fce80ef88fdcc7ff5b65066?source=copy_link)
